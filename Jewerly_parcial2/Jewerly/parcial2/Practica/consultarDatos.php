@@ -12,7 +12,7 @@
 
     <?php
       include 'conexion.php';
-      $sql = "select * from usuarios";
+      $sql = "select * from joyas";
       $datos = $conexion->query($sql);
 
     ?>
@@ -40,9 +40,9 @@
                       ?>
                         <tr>
                             <td><?php echo $row["id"]; ?></td>
-                            <td><?php echo $row["Nombre"]; ?></td>
-                            <td><?php echo $row["Precio"]; ?></td>
-                            <td><?php echo $row["Material"]; ?></td>
+                            <td><?php echo $row["nombre"]; ?></td>
+                            <td><?php echo $row["precio"]; ?></td>
+                            <td><?php echo $row["material"]; ?></td>
                             <td>
                                 <a href="actualizarRegistro.php?id=<?php echo $row["id"]; ?>" class="btn btn-dark">Editar</a>
                                 <a href="eliminarRegistro.php?id=<?php echo $row["id"]; ?>" class="btn btn-danger">Eliminar</a>
@@ -52,7 +52,7 @@
                       } 
                     }
                     $conexion->close();
-                      ?>
+                      ?>n
                     </tbody>
                 </table>
             </div>
