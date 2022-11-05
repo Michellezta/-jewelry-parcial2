@@ -52,7 +52,7 @@
                       } 
                     }
                     $conexion->close();
-                      ?>n
+                      ?>
                     </tbody>
                 </table>
             </div>
@@ -60,7 +60,7 @@
     </div>
     <footer class="text-center">
         <hr>
-        2022 &copy; Jewelry
+        2022 &copy; jeweler's
     </footer>
     <script src="js/bootstrap.js"></script>
 </body>
