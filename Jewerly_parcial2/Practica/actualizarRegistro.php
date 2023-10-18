@@ -47,7 +47,7 @@
     </div>
     <footer class="text-center">
         <hr>
-        2022 &copy; jeweler's
+        2023 &copy; jeweler's
     </footer>
     <script src="js/bootstrap.js"></script>
 </body>
